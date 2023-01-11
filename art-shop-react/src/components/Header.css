@@ -1,0 +1,45 @@
+.header__container {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  max-width: 1000px;
+  background-color: #fff;
+}
+.title {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 700;
+  color: #000632;
+}
+.subtitle {
+  margin-top: 24px;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 16px 0px 0px;
+  color: #474747;
+  font-weight: 600;
+  vertical-align: baseline;
+}
+.btn__area {
+  margin: 40px 0;
+}
+.btn__area button {
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color .3s ease 0s, border-color .3s ease 0s,
+    background-color .3s ease 0s;
+  text-decoration: none;
+  border: 2px solid #ff6661;
+  background-color: #ff6661;
+  font-size: 1.2rem;
+  line-height: 22px;
+  padding: 15px 24px;
+  color: #fff !important;
+}
